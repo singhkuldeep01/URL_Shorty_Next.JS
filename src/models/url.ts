@@ -12,8 +12,7 @@ const urlSchema = new Schema({
         unique: true,
     }
 } , { timestamps: true });
-
-export interface Iurl extends Document {
+export interface Iurl extends Document { 
     url: string;
     shortUrl: string;
 }
