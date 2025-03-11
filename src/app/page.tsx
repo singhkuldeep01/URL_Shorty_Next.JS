@@ -4,7 +4,7 @@ export default function Home() {
   connectDB();
   return (
    <>
-      <h1> URL Shorty</h1>
+      <h1> URL hello</h1>
    </>
   );
 }
