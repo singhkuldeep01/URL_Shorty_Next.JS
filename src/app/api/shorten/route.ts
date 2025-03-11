@@ -13,3 +13,4 @@ export async function GET() {
     const urls = await shortnerService.getAllURLs();
     return NextResponse.json(urls , {status: 200});   
 }
+
